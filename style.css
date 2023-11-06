@@ -1,0 +1,152 @@
+
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        html,
+        body {
+
+            height: 100%;
+            width: 100vw;
+            background-image: url('https://images.wallpapersden.com/image/download/simple-firewatch_a2ltZWiUmZqaraWkpJRnamtlrWZpaWU.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-weight: bolder;
+            gap: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* border: 2px solid red; */
+           
+
+
+        }
+
+        .constainer {
+
+            width: 500px;
+            height: 550px;
+            background-color: rgba(0, 0, 0, 0.566);
+            box-shadow: 10px 10px 20px rgb(44, 39, 39);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            position: relative;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        input {
+
+            width: 250px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px transparent;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 15px;
+
+
+
+
+
+
+
+        }
+
+        input {
+
+            border: none;
+        }
+
+
+        button {
+
+            width: 45px;
+            height: 45px;
+
+            background-image: url('https://png.pngtree.com/png-vector/20190321/ourmid/pngtree-vector-find-icon-png-image_856935.jpg');
+            border: none;
+            background-size: cover;
+            background-position: center;
+
+            border-radius: 100px;
+            /* border: 2px solid rebeccapurple; */
+
+            margin-left: -40px;
+            border: 2px rgb(0, 0, 0);
+        }
+
+        .searchfun {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid rebeccapurple; */
+            height: fit-content;
+            margin-top: 10px;
+        }
+
+        .temperature {
+
+            font-size: 5rem;
+            font-family: monospace;
+        }
+
+        .moreinfo {
+
+            width: 90%;
+            background-color: rgba(0, 0, 0, 0.635);
+            height: fit-content;
+            margin-top: 20px;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+
+        .error{
+
+            background-color: rgba(255, 0, 0, 0.66);
+            width: 50%;
+            height: 30px;
+            position:absolute;
+            top: 10px;
+            text-align: center;
+            border-radius: 20px;
+        
+            transition: .2s all ease-in;
+
+            animation-name: error;
+            animation-duration: 1s;
+            animation-fill-mode:forwards;
+            animation-iteration-count: 1;
+            display: none;
+            
+        }
+
+        @keyframes error {
+
+            from{
+
+                transform: translateY(-200%);
+
+            }
+
+            to {
+
+                transform: translateY(0%);
+            }
+            
+        }
+
+    
