@@ -112,6 +112,31 @@
             padding: 20px;
             font-size: 20px;
             border-radius: 20px;
+          
+        }
+
+
+        .animate{
+
+            animation-name: weatheranimate;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes weatheranimate {
+
+            from{
+
+                transform: translateY(-10%);
+
+            }
+
+            to{
+
+                transform: translateY(0%);
+            }
+            
         }
 
         .error{

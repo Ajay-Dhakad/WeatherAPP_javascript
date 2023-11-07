@@ -68,7 +68,7 @@ let showweather =async (city) => {
 
     }]
 
-    // console.log(details)
+
 
   
 
@@ -122,6 +122,8 @@ btn.addEventListener('click', async () => {
         var error = document.querySelector('.error')
 
         error.style.display = 'block'
+
+        inputval.value = ''
 
         setTimeout( () => {
 
