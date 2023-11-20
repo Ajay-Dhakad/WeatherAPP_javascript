@@ -106,7 +106,7 @@ btn.addEventListener('click', async () => {
     let city = document.querySelector('.cityname')
 
 
-    temp.append = data[0].temperature
+    temp.innerHTML=data[0].temperature 
     city.textContent = data[0].cityname
     humidity.textContent = 'Humidity :' + data[0].humidity
     cloud.textContent = 'Cloud :'+ data[0].cloud
@@ -185,7 +185,7 @@ let defaultweather =async () => {
     let city = document.querySelector('.cityname')
 
 
-    temp.append = data[0].temperature
+    temp.innerHTML=data[0].temperature
     city.textContent = data[0].cityname
     humidity.textContent = 'Humidity :' + data[0].humidity
     cloud.textContent = 'Cloud :'+ data[0].cloud
